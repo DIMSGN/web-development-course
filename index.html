@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridHeaderExample</title>
+
+
+<style>
+    /* General reset */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Header styling */
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 1rem;
+        
+    
+
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .main-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        margin:5px;
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">  
+        <div class="logo">Logo</div>
+        <nav class="main-nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+
+
+
+    </header>
+  
+
+</body>
+</html>
