@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: #fafafa;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+/* Code styling */
+.code-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-start;
+}
+.line-numbers {
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    color: #888;
+    text-align: right;
+    user-select: none;
+    line-height: 1.5;
+    font-size: 18px;
+}
+pre {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 10px;
+    white-space: pre-wrap; /* Ensure the code wraps correctly */
+}
+.highlight {
+    background-color: yellow;
+}
+/* Cups container */
+.cups-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cup {
+    width: 80px;
+    height: 120px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+}
+@media (min-width: 768px) {
+    .cup {
+        width: 100px;
+        height: 140px;
+    }
+}
+/* Cup positions and initial colors */
+#cupA {
+    background-color: #8B4513; /* cafe color */
+    color: #fff;
+}
+#cupB {
+    background-color: #ADD8E6; /* water color */
+    color: #000;
+}
+#cupC {
+    background-color: #eee; /* empty color */
+    color: #000;
+    display: none; /* initially hidden */ 
+}
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Explanation container styling */
+.explanation-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.explanation {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

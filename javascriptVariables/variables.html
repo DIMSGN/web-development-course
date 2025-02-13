@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variable Swap Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JavaScript Variable Swap Visualization</h1>
+    <div class="container">
+        <!-- Code area -->
+        <div class="code-container">
+            <div class="line-numbers" id="lineNumbers">
+                1<br>2<br>3<br>4<br>5<br>6<br>7
+            </div>
+            <pre id="codeBlock">function swapVar() {
+  var a = "cafe";
+  var b = "water";
+</pre>
+        </div>
+        <!-- Cups area -->
+        <div class="cups-container">
+            <div id="cupA" class="cup">A: cafe</div>
+            <div id="cupB" class="cup">B: water</div>
+            <div id="cupC" class="cup">C:</div>
+        </div>
+    </div>
+    <button id="swapButton">Swap</button>
+    <button id="resetButton" style="display:none;">Reset</button>
+    <div id="explanationContainer" class="explanation-container">
+        <div class="explanation">Line 1: Declare the function swapVar.</div>
+        <div class="explanation">Line 2: Declare variable a and assign it the value "cafe".</div>
+        <div class="explanation">Line 3: Declare variable b and assign it the value "water".</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
