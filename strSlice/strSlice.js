@@ -1,6 +1,7 @@
-function nameSlice() {
-  var name = "Dimitris";
-  var slicedName = name.slice(0, 3);
-  console.log(slicedName);
+function nameSlice(start, end) {
+    var name = "Dimitris";
+    var slicedName = name.slice(start, end); // Use the start and end parameters for slicing
+    console.log(slicedName);
 }
-module.exports = { nameSlice };
+
+module.exports = { nameSlice }; // Export the nameSlice function
