@@ -7,7 +7,7 @@ function square(num){
 function promptSquare() {
 rl.question("Enter a number to square: ", (num) =>{
 	const result = square(parseFloat(num));
-	console.log(`The squarte of ${num} is: ${result}`);
+	console.log(`The square of ${num} is: ${result}`);
 	rl.close();
 });
 }

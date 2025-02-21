@@ -6,4 +6,4 @@ function quickChallenge() {
 }
 
 // Export the quickChallenge function
-module.exports = { quickChallenge };
+module.exports =  quickChallenge ;
