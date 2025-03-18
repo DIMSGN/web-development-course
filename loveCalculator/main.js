@@ -1,3 +1,3 @@
-const randomNumber = require("./randomNumber");
+const loveCalculator = require("./loveCalculator");
 
-randomNumber();
+loveCalculator();
